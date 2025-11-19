@@ -96,7 +96,7 @@ const formFields = [
     type: 'radio',
     name: 'hometown',
     'cf-label': 'a bustling town',
-    value: 'town',
+    value: 'a busy town',
     'cf-image': Town
   },
   {
@@ -144,6 +144,9 @@ const formFields = [
       );
       cfRef.current.addRobotChatResponse(
         "MAY YOUR JOURNEY BEGIN!"
+      );
+      cfRef.current.addRobotChatResponse(
+        "Check your WhatsApp in a few minutes for a surprise. (:"
       );
     }
   };
